@@ -1,9 +1,10 @@
-.App {
+.app-style {
+  font-family: sans-serif;
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,8 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +32,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.section {
+  display: flex;
+}
+
+.section1 {
+  background-color: #4CAF50;
+  width: 50%;
+}
+
+.section2 {
+  background-color: #2196F3;
+  width: 50%;
 }
